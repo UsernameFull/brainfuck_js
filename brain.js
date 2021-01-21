@@ -43,7 +43,7 @@ function execute(e){
     }
     else if(e=="["){
         if(!memory[memIndicate]){
-            strIndicate=jumpMap[1][jumpMap[0].findIndex(strIndicate)]
+            strIndicate=jumpMap[1][jumpMap[0].indexOf(strIndicate)]
         }
     }
     else if(e=="]"){
